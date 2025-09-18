@@ -4,11 +4,11 @@
 
 def solve():
 # Ниже пишите решение задачии(Обязательно поставьте четыре пробела после функции Solve())
-    numbers = input("Введите числа: ") 
-    numbers_list = list(map(int, numbers.split())) 
-    squares = [x**2 for x in numbers_list]
-    print("Результат:", ' '.join(map(str, squares)))
+    a=map(int, input("Введите 3 числа через пробел: ").split())
+    b=[x**2 for x in a]
+    print(b)
 
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
+
     solve()
